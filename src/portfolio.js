@@ -43,12 +43,6 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
-  {
-    name: "Gmail",
-    link: "vincepradipta1357@gmail.com",
-    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
-    backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
-  },
 ];
 
 const skills = {
@@ -58,7 +52,8 @@ const skills = {
       fileName: "BEImg",
       skills: [
         "Develop APIs for several projects and web applications with Express, Gorilla/Mux, and Flask",
-        "Build and develop databases used for projects with a variety of DBMSs",
+        "Build and develop databases used for projects with a variety of DBMSs like MySQL, MongoDB, and Redis",
+        "Perform testing and documentation of the API's request and response with Postman",
       ],
       softwareSkills: [
         {
@@ -130,6 +125,65 @@ const skills = {
           fontAwesomeClassname: "file-icons:prisma",
           style: {
             backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Postman",
+          fontAwesomeClassname: "cib:postman",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+      ],
+    },
+    {
+      title: "Software Engineering",
+      fileName: "SEimg",
+      skills: [
+        "Building mobile applications with my development knowledge on Flutter",
+        "Designing the software's system, architecture, model, UI, and API specification",
+        "Perform unit and end-to-end testing to ensure that the software works as expected",
+        "Implementing third parties' API for the projects",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Flutter",
+          fontAwesomeClassname: "bxl:flutter",
+          style: {
+            backgroundColor: "transparent",
+            // color: "#E34F26",
+          },
+        },
+        {
+          skillName: "Supabase",
+          fontAwesomeClassname: "simple-icons:supabase",
+          style: {
+            backgroundColor: "transparent",
+            // color: "#1572B6",
+          },
+        },
+        {
+          skillName: "Figma",
+          fontAwesomeClassname: "akar-icons:figma-fill",
+          style: {
+            backgroundColor: "transparent",
+            // color: "#CC6699",
+          },
+        },
+        {
+          skillName: "GitHub",
+          fontAwesomeClassname: "ant-design:github-filled",
+          style: {
+            backgroundColor: "transparent",
+            // color: "#CC6699",
+          },
+        },
+        {
+          skillName: "Draw.io",
+          fontAwesomeClassname: "file-icons:draw-io",
+          style: {
+            backgroundColor: "transparent",
+            // color: "#CC6699",
           },
         },
       ],
