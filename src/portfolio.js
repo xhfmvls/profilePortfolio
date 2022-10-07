@@ -2,7 +2,7 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to false if you don't want Splash screen.
+  isSplash: false, // Change this to false if you don't want Splash screen.
 };
 
 //SEO Related settings
@@ -43,13 +43,19 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
+  {
+    name: "Gmail",
+    link: "mailto:vincepradipta1357@gmail.com",
+    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
+    backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
+  },
 ];
 
 const skills = {
   data: [
     {
       title: "Back End Development",
-      fileName: "BEImg",
+      fileName: "DeveloperActivityImg",
       skills: [
         "Develop APIs for several projects and web applications with Express, Gorilla/Mux, and Flask",
         "Build and develop databases used for projects with a variety of DBMSs like MySQL, MongoDB, and Redis",
