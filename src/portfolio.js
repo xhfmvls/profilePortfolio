@@ -20,7 +20,7 @@ const seo = {
 //Home Page
 const greeting = {
   title: "Vincent Pradipta",
-  logo_name: "",
+  logo_name: "xhfmvls",
   nickname: "xhfmvls",
   subTitle:
     "A Developer and also a Cyber Security student that currently has an interest in software engineering and computer security.",
