@@ -8,16 +8,6 @@ import FullStackImg from "./FullStackImg";
 import CloudInfraImg from "./CloudInfraImg";
 import DesignImg from "./DesignImg";
 
-function GetSkillSvg(props) {
-  if (props.fileName === "DataScienceImg")
-    return <DataScienceImg theme={props.theme} />;
-  else if (props.fileName === "FullStackImg")
-    return <FullStackImg theme={props.theme} />;
-  else if (props.fileName === "CloudInfraImg")
-    return <CloudInfraImg theme={props.theme} />;
-  return <DesignImg theme={props.theme} />;
-}
-
 class SkillSection extends Component {
   render() {
     const theme = this.props.theme;
@@ -32,7 +22,11 @@ class SkillSection extends Component {
                     alt="Ashutosh is Analysing Data"
                     src={require(`../../assests/images/${skill.imagePath}`)}
                   ></img> */}
-                  <GetSkillSvg fileName={skill.fileName} theme={theme} />
+                  {/* <GetSkillSvg fileName={skill.fileName} theme={theme} /> */}
+                  <img
+                    src={require(`../../assests/images/${skill.fileName}.svg`)}
+                    alt="test"
+                  ></img>
                 </div>
               </Fade>
 

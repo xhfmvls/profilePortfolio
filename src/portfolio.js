@@ -55,7 +55,7 @@ const skills = {
   data: [
     {
       title: "Back End Development",
-      fileName: "DeveloperActivityImg",
+      fileName: "developerActivity",
       skills: [
         "Develop APIs for several projects and web applications with Express, Gorilla/Mux, and Flask",
         "Build and develop databases used for projects with a variety of DBMSs like MySQL, MongoDB, and Redis",
@@ -144,7 +144,7 @@ const skills = {
     },
     {
       title: "Software Engineering",
-      fileName: "SEimg",
+      fileName: "projects_image",
       skills: [
         "Building mobile applications with my development knowledge on Flutter",
         "Designing the software's system, architecture, model, UI, and API specification",
@@ -196,7 +196,7 @@ const skills = {
     },
     {
       title: "Cyber Security",
-      fileName: "SecurityImg",
+      fileName: "programmer",
       skills: [
         "Implement my cyber security knowledge in application development",
         "Analyze possible threats and how to mitigate/respond to them",
