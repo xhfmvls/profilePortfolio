@@ -4,7 +4,7 @@ import { gql } from "apollo-boost";
 import "./Project.css";
 import GithubRepoCard from "../../components/githubRepoCard/GithubRepoCard";
 import Button from "../../components/button/Button";
-import { openSource } from "../../portfolio";
+import { openSource } from "../../portfolio.js";
 import { greeting } from "../../portfolio.js";
 
 export default function Projects() {
@@ -75,7 +75,7 @@ export default function Projects() {
         })}
       </div>
       <Button
-        text={"More Projects"}
+        text={"More Project"}
         className="project-button"
         href={greeting.githubProfile}
         newTab={true}
