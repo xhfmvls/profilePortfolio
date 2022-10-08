@@ -12,6 +12,7 @@ import {
   publicationsHeader,
   publications,
 } from "../../portfolio.js";
+import PullRequests from "../../containers/pullRequests/PullRequests";
 import ProjectsData from "../../shared/opensource/projects.json";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
@@ -61,7 +62,7 @@ class Projects extends Component {
           newTab={true}
           theme={theme}
         />
-
+        <PullRequests theme={this.props.theme} />
         {/* Publications  */}
         {/* {publications.data.length > 0 ? (
           <div className="basic-projects">
