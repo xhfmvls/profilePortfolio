@@ -7,6 +7,8 @@ import "./Experience.css";
 import { experience } from "../../portfolio.js";
 import { Fade } from "react-reveal";
 import ExperienceImg from "./ExperienceImg";
+import Button from "../../components/button/Button";
+import { greeting } from "../../portfolio.js";
 
 // const experience = {
 // 	title: "Experience",
@@ -184,6 +186,22 @@ class Experience extends Component {
           </Fade>
         </div>
         <ExperienceAccordion sections={experience["sections"]} theme={theme} />
+        <Button
+          text={"View My Previous Projects"}
+          className="project-button"
+          href={greeting.githubProfile}
+          newTab={true}
+          theme={theme}
+        />
+        <Button
+          text={"Download My CV"}
+          className="project-button"
+          href={
+            "https://drive.google.com/file/d/1ogWrUlct8lSuuZ70rMrx3EcNhkU-7yMe/view?usp=sharing"
+          }
+          newTab={true}
+          theme={theme}
+        />
         <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />
       </div>
