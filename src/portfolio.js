@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Xhfmvls's Portfolio",
   description:
-    "A Developer and also a Cyber Security student that currently has an interest in software engineering and computer security.",
+    "Cyber Security Enthusiast (and Student) with an interest in software engineering, digital forensic, and OSINT.",
   og: {
     title: "Xhfmvls's Portfolio",
     type: "website",
@@ -23,16 +23,15 @@ const greeting = {
   logo_name: "xhfmvls",
   nickname: "xhfmvls",
   subTitle:
-    "A Developer and also a Cyber Security student that currently has an interest in software engineering and computer security.",
-  resumeLink:
-    "https://drive.google.com/open?id=1XYpYhLeqCdyx_q6l0bQoC7RgwQjAjXPf",
+    "Cyber Security Enthusiast (and Student) with an interest in software engineering, digital forensic, and OSINT.",
+  resumeLink: "mailto:vipradiptadev@gmail.com",
   portfolio_repository: "https://github.com/xhfmvls/xhfmvls",
   githubProfile: "https://github.com/xhfmvls",
 };
 
 const socialMediaLinks = [
   {
-    name: "Github",
+    name: "GitHub",
     link: "https://github.com/xhfmvls",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
@@ -44,10 +43,10 @@ const socialMediaLinks = [
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
   {
-    name: "Gmail",
-    link: "mailto:vincepradipta1357@gmail.com",
-    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
-    backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
+    name: "HackerRank",
+    link: "https://www.hackerrank.com/vigil_senpai",
+    fontAwesomeIcon: "fa-hackerrank", // Reference https://fontawesome.com/icons/google?style=brands
+    backgroundColor: "#2EC866", // Reference https://simpleicons.org/?q=gmail
   },
 ];
 
@@ -58,8 +57,9 @@ const skills = {
       fileName: "developerActivity",
       skills: [
         "Develop APIs for several projects and web applications with Express, Gorilla/Mux, and Flask",
+        "Develop Microservices with several tools and Go Fiber Framework",
         "Build and develop databases used for projects with a variety of DBMSs like MySQL, MongoDB, and Redis",
-        "Perform testing and documentation of the API's request and response with Postman",
+        "Perform integration testing and documentation of the API's request and response with Postman and several libraries (ex. testify)",
       ],
       softwareSkills: [
         {
@@ -120,6 +120,14 @@ const skills = {
           },
         },
         {
+          skillName: "PostgreSQL",
+          fontAwesomeClassname: "akar-icons:postgresql-fill",
+          style: {
+            backgroundColor: "transparent",
+            // color: "#CC6699",
+          },
+        },
+        {
           skillName: "Redis",
           fontAwesomeClassname: "cib:redis",
           style: {
@@ -138,6 +146,54 @@ const skills = {
           fontAwesomeClassname: "cib:postman",
           style: {
             backgroundColor: "transparent",
+          },
+        },
+        {
+          skillName: "Docker",
+          fontAwesomeClassname: "mdi:docker",
+          style: {
+            backgroundColor: "transparent",
+            // color: "#CC6699",
+          },
+        },
+        {
+          skillName: "RabbitMQ",
+          fontAwesomeClassname: "simple-icons:rabbitmq",
+          style: {
+            backgroundColor: "transparent",
+          },
+        },
+      ],
+    },
+    {
+      title: "Cyber Security",
+      fileName: "programmer",
+      skills: [
+        "Implement my cyber security knowledge in application development",
+        "Analyze possible threats and how to mitigate/respond to them",
+        "Perform threat modeling and STRIDE analysis for a number of cases",
+      ],
+      softwareSkills: [
+        {
+          skillName: "Kali Linux",
+          fontAwesomeClassname: "simple-icons:kalilinux",
+          style: {
+            backgroundColor: "transparent",
+            // color: "#E34F26",
+          },
+        },
+        {
+          skillName: "Wire Shark",
+          fontAwesomeClassname: "simple-icons:wireshark",
+          style: {
+            // color: "#1572B6",
+          },
+        },
+        {
+          skillName: "Nmap",
+          fontAwesomeClassname: "file-icons:nmap",
+          style: {
+            // color: "#CC6699",
           },
         },
       ],
@@ -192,36 +248,11 @@ const skills = {
             // color: "#CC6699",
           },
         },
-      ],
-    },
-    {
-      title: "Cyber Security",
-      fileName: "programmer",
-      skills: [
-        "Implement my cyber security knowledge in application development",
-        "Analyze possible threats and how to mitigate/respond to them",
-        "Perform threat modeling and STRIDE analysis for a number of cases",
-      ],
-      softwareSkills: [
         {
-          skillName: "Kali Linux",
-          fontAwesomeClassname: "simple-icons:kalilinux",
+          skillName: "Jira",
+          fontAwesomeClassname: "mdi:jira",
           style: {
             backgroundColor: "transparent",
-            // color: "#E34F26",
-          },
-        },
-        {
-          skillName: "Wire Shark",
-          fontAwesomeClassname: "simple-icons:wireshark",
-          style: {
-            // color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Nmap",
-          fontAwesomeClassname: "file-icons:nmap",
-          style: {
             // color: "#CC6699",
           },
         },
@@ -271,16 +302,58 @@ const degrees = {
       duration: "2020 - 2024",
       descriptions: [
         "Studied in Cyber Security major.",
-        "Received a 3.81 GPA in my 4th semester.",
-        "Obtain 144 activity points and 30 hours of community service.",
+        "Received a 3.85 GPA in my 6th semester.",
+        "Obtain 148 activity points and 30 hours of community service.",
+        "Gain experience through Enrichment program (Internship) for two semesters.",
       ],
       website_link: "https://binus.ac.id/",
     },
   ],
 };
 
+const experience = {
+  degrees: [
+    {
+      title: "Vuln0wned",
+      subtitle: "Member (Code Analysis)",
+      logo_path: "vulnowned-logo.png",
+      alt_name: "Vuln0wned",
+      duration: "August 2023 - Present",
+      descriptions: [
+        "Discovering vulnerability through code analysis.",
+        "Making report of the discovered CVE.",
+        "Helps other members discover vulnerabilities in the deployed applications.",
+      ],
+      website_link: "https://www.linkedin.com/company/vuln0wned/",
+    },
+    {
+      title: "Asuransi Astra",
+      subtitle: "IT Security Architect Intern",
+      logo_path: "Asuransi-Astra.png",
+      alt_name: "Asuransi Astra",
+      duration: "March 2023 - February 2024",
+      descriptions: [
+        "Developing CMS Security for Security Awareness Program Purposes.",
+        "Participating in Security Awareness Program (Which includes Phishing Simulation and Security Awareness Training).",
+        "Developing scripts/tools to support security operations.",
+        "Helps other security team staff to manage/process data.",
+        "Assisting other security activities (Penetration Testing, Vulnerability Assessment, and Patch Management).",
+      ],
+      website_link: "https://www.linkedin.com/company/asuransiastra/",
+    },
+  ],
+};
+
 const certifications = {
   certifications: [
+    {
+      title: "Certified AppSec Practitioner (CAP)",
+      subtitle: "The SecOps Group",
+      logo_path: "secops.jpg",
+      certificate_link: "",
+      alt_name: "The SecOps Group",
+      color_code: "#ffffff",
+    },
     {
       title: "JavaScript (Basic)",
       subtitle: "HackerRank",
@@ -326,60 +399,72 @@ const certifications = {
 };
 
 // Experience Page
-const experience = {
-  title: "Experience",
-  subtitle: "Working Experiences",
-  description:
-    "I'm a Developer and also a Cyber Security student at BINUS University that currently has an interest in software engineering and cyber security itself. I worked mainly as a back-end developer for several projects before and have a considerable understanding of the technical and non-technical parts of it. I'm looking for an opportunity to gain more experience and knowledge in the software engineering field.",
-  header_image_path: "",
-  sections: [
-    // {
-    //   title: "Work",
-    //   experiences: [
-    //     {
-    //       title: "Associate AI Engineer",
-    //       company: "Legato Health Technology",
-    //       company_url: "https://legatohealthtech.com/",
-    //       logo_path: "legato_logo.png",
-    //       duration: "June 2020 - PRESENT",
-    //       location: "Hyderabad, Telangana",
-    //       description:
-    //         "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
-    //       color: "#0879bf",
-    //     },
-    //     {
-    //       title: "Android and ML Developer",
-    //       company: "Muffito Incorporation",
-    //       company_url: "https://www.linkedin.com/company/muffito-inc/about/",
-    //       logo_path: "muffito_logo.png",
-    //       duration: "May 2018 - Oct 2018",
-    //       location: "Pune, Maharashtra",
-    //       description:
-    //         "I have created complete Android Application for locating Pub, Bar and beverage shops around you. I have also worked on implementation of algorithms for Face Detection, Text extraction from Image. I was involved in a team for creating complete software architecure of mobile and web application as well as admin panel for company.",
-    //       color: "#9b1578",
-    //     },
-    //     {
-    //       title: "Android Developer",
-    //       company: "FreeCopy Pvt. Ltd.",
-    //       company_url: "https://www.linkedin.com/company/freecopy/about/",
-    //       logo_path: "freecopy_logo.png",
-    //       duration: "Nov 2017 - Dec 2017",
-    //       location: "Ahmedabad, Gujarat",
-    //       description:
-    //         "FreeCopy is the Start up from Indian Institute of Management, Ahmedabad. I have changed the integration of the whole app from Google to Firebase. I learnt the efﬁcient ways of Data communications like Retroﬁt, Eventbus etc. I experienced the real time start up. I learnt the Design thinking of UI on perspective of People.",
-    //       color: "#fc1f20",
-    //     },
-    //   ],
-    // },
-  ],
-};
+// const experience = {
+//   title: "Experience",
+//   // subtitle: "Working Experiences",
+//   description:
+//     "I'm a Developer and also a Cyber Security student at BINUS University that currently has an interest in software engineering and cyber security itself. I worked mainly as a back-end developer for several projects before and have a considerable understanding of the technical and non-technical parts of it. I'm looking for an opportunity to gain more experience and knowledge in the software engineering field.",
+//   header_image_path: "",
+//   sections: [
+//     {
+//       title: "Working Experience",
+//       experiences: [
+//         {
+//           title: "Back End Developer (Intern)",
+//           company: "Overo Digital Global (Soluix Group)",
+//           company_url: "https://overoglobal.com/",
+//           logo_path: "Overo-Logo.png",
+//           duration: "October 2022 - PRESENT",
+//           location: "Tangerang, Banten",
+//           description:
+//             "Work as a Back End Developer in an internship at PT. Overo Digital Global (Soluix Group) with Go Fiber frameworks and PostgreSQL DBMS. Work with Microservices related to banking and payment system. Perform unit and integration testing. Having paired programming sessions with co-workers.",
+//           color: "#3b3b3b",
+//         },
+//       ],
+//     },
+//     {
+//       title: "Hackathon",
+//       experiences: [
+//         {
+//           title: "Statements Against Mankind",
+//           company: "Snakes and Hackers 2",
+//           company_url: "https://snakesandhackers2.devpost.com/",
+//           logo_path: "mlh.jpeg",
+//           duration: "12 August 2022 - 14 August 2022",
+//           description:
+//             "Statements Against Mankind is a board (card) game that is inspired by the classic game of C*rds Ag**nst H*m*ni*y. But here, the players have the access to create their own cards. This project wins the Best New Player Hacks category.",
+//           color: "#3b3b3b",
+//         },
+//         {
+//           title: "TOP G",
+//           company: "A Hack A Day 2",
+//           company_url: "https://devpost.com/software/top-g",
+//           logo_path: "mlh.jpeg",
+//           duration: "19 August 2022 - 21 August 2022",
+//           description:
+//             "TOP G is a web application that enables gym members (users) to find information about collaborated gyms, check in to the gym, and consultate about health and exercise with professionals.",
+//           color: "#3b3b3b",
+//         },
+//         {
+//           title: "Heart Disease EDA",
+//           company: "Garuda Hacks 3.0",
+//           company_url: "https://devpost.com/software/heart-disease-eda/",
+//           logo_path: "garuda.png",
+//           duration: "26 August 2022 - 28 August 2022",
+//           description:
+//             "Heart Disease EDA is a data analysis project regarding the factors that influence the occurrence of heart disease.",
+//           color: "#3b3b3b",
+//         },
+//       ],
+//     },
+//   ],
+// };
 
 // Projects Page
 const projectsHeader = {
-  title: "Projects",
+  title: "Personal Projects",
   description:
-    "Most of my projects are web applications that I work mainly as a back end developer. I develop most of my projects with Express.js and TypeScript with other useful libraries. ",
-  avatar_image_path: "projects_image.svg",
+    "Most of my personal projects are web applications that I work mainly as a back end developer. I develop most of my projects with Express.js and TypeScript with other useful libraries.",
 };
 
 const publicationsHeader = {};

@@ -29,9 +29,9 @@ export default function Greeting(props) {
               <SocialMedia theme={theme} />
               <div className="portfolio-repo-btn-div">
                 <Button
-                  text="⭐ Star Me On Github"
+                  text="Send Me Email"
                   newTab={true}
-                  href={greeting.portfolio_repository}
+                  href={"mailto:vipradiptadev@gmail.com"}
                   theme={theme}
                   className="portfolio-repo-btn"
                 />
@@ -46,8 +46,8 @@ export default function Greeting(props) {
             <center>
               <img
                 alt="Image not found"
-                src={require("../../assests/images/Transparent photo adjust.png")}
-                style={{ width: "300px", height: "356px" }}
+                src={require("../../assests/images/Vincent.png")}
+                style={{ width: "60%", height: "60%", marginTop: "8%" }}
               ></img>
             </center>
           </div>

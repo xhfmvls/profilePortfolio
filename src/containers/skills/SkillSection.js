@@ -23,10 +23,6 @@ class SkillSection extends Component {
                     src={require(`../../assests/images/${skill.imagePath}`)}
                   ></img> */}
                   {/* <GetSkillSvg fileName={skill.fileName} theme={theme} /> */}
-                  <img
-                    src={require(`../../assests/images/${skill.fileName}.svg`)}
-                    alt="test"
-                  ></img>
                 </div>
               </Fade>
 
@@ -54,6 +50,7 @@ class SkillSection extends Component {
                   </div>
                 </Fade>
               </div>
+              <br></br>
             </div>
           );
         })}
