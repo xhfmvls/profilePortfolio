@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "36c154cd3d43af87ffe348615df47832",
+    "revision": "32e8c96f7c4fae290435471358a0910b",
     "url": "/index.html"
   },
   {
-    "revision": "8aabf14c982f7d6cb02d",
-    "url": "/static/css/main.bdbdb3f1.chunk.css"
+    "revision": "28a9728ce8a53fd8e435",
+    "url": "/static/css/main.b0d5e418.chunk.css"
   },
   {
-    "revision": "9973278ef886799be4aa",
-    "url": "/static/js/2.c5e044bb.chunk.js"
+    "revision": "c68fab4192ded07eeea0",
+    "url": "/static/js/2.81bb5086.chunk.js"
   },
   {
-    "revision": "8aabf14c982f7d6cb02d",
-    "url": "/static/js/main.fd5a41e2.chunk.js"
+    "revision": "28a9728ce8a53fd8e435",
+    "url": "/static/js/main.3e973688.chunk.js"
   },
   {
     "revision": "6138eaf4a6c67cbf898e",
@@ -22,6 +22,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
     "url": "/static/media/Agustina.21f233e1.woff"
+  },
+  {
+    "revision": "d10dab12a848a14bd67b585b5a4ff30a",
+    "url": "/static/media/Asuransi-Astra.d10dab12.png"
   },
   {
     "revision": "4457817ac2b9993c65e81aa05828fe9c",
@@ -64,6 +68,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Transparent photo.f263f55d.png"
   },
   {
+    "revision": "e93c3e67c616d4cd800e6dd8a8a76558",
+    "url": "/static/media/Vincent.e93c3e67.png"
+  },
+  {
     "revision": "16559172ca1d4d552390b48f19e102ba",
     "url": "/static/media/address_image.16559172.svg"
   },
@@ -98,6 +106,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3e23ca14e7a7c8a7b63d255466749000",
     "url": "/static/media/developerActivity.3e23ca14.svg"
+  },
+  {
+    "revision": "2ff06a2324d9a15203a931195a839e6f",
+    "url": "/static/media/devpost_logo.2ff06a23.png"
   },
   {
     "revision": "63f707f224c8a842ac928c36e3be879a",
@@ -260,6 +272,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/pwa.71408db7.png"
   },
   {
+    "revision": "729189488e3767eb28fdd869e4a825d3",
+    "url": "/static/media/secops.72918948.jpg"
+  },
+  {
     "revision": "2c497738be3831492aeb6bdc43f19154",
     "url": "/static/media/stanford_logo.2c497738.png"
   },
@@ -274,5 +290,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d63630893eb8cb64af65f395d393c481",
     "url": "/static/media/ui_ux_design.d6363089.svg"
+  },
+  {
+    "revision": "23a26671065bebdfe99ed483bd9e2f24",
+    "url": "/static/media/vulnowned-logo.23a26671.png"
   }
 ]);
